@@ -1,3 +1,4 @@
+#This is My day 7 Mini project Called Hangman_Game
 logo = '''
 ==================================WELCOME TO THE HANGMAN GAME==================================
  _                                             
