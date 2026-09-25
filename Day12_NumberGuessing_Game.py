@@ -14,12 +14,11 @@ logo = '''
                                                                                                                                                            '''
 print(logo)
 
-choosen_number = random.randint(1,101)
+choosen_number = random.randint(1,100)
 
 choose_level = input("Choose the level (easy or hard): ").lower()
 
 def level(chances):
-    chances = chances
     while chances != 0:
         guess = int(input("Guess the number between 1 to 100 : "))
         if guess == choosen_number:
